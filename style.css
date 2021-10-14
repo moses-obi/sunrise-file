@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(sunrise.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  height: 100vh;
+}
+
+.general-cont {
+  display: flex;
+}
+
+.date p {
+  line-height: 0.9;
+}
+
+.search-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.search-box input {
+  height: 50px;
+  width: 600px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.search-box input:focus {
+  outline: none;
+}
+
+.search-box button {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  color: rgb(53, 178, 219);
+  top: 16px;
+  left: 545px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.search-box button:focus {
+  outline: none;
+}
+
+.container {
+  position: relative;
+  height: 80px;
+  width: 400px;
+}
+
+.trans-div {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  opacity: 0.3;
+}
+
+.circles {
+  position: absolute;
+  top: 10px;
+  display: inline-block;
+  align-items: center;
+  border: 30px solid white;
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  margin-left: 15px;
+}
+
+.circles + .circles {
+  left: 73px;
+}
+
+.circles + .circles + .circles {
+  left: 143px;
+}
+
+.circles + .circles + .circles + .circles {
+  left: 213px;
+}
+
+.circles
+  + .circles
+  + .circles
+  + .circles
+  + .circles {
+  left: 283px;
+}
+
+.lhs {
+  width: 300px;
+  display: inline-block;
+  margin-left: 250px;
+}
+
+.big-box {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+
+.big-box .empty {
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  opacity: 0.2;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.big-box .strike-text {
+  position: absolute;
+  height: 50px;
+  width: 260px;
+  padding-top: 15px;
+  background-color: white;
+  opacity: 0.5;
+  color: grey;
+  top: 15px;
+  left: 20px;
+  border-radius: 20px;
+}
+
+.big-box .text {
+  position: absolute;
+  height: 50px;
+  width: 260px;
+  background-color: white;
+  top: 80px;
+  padding-top: 15px;
+  left: 20px;
+  border-radius: 20px;
+}
+
+.bottom {
+  position: relative;
+}
+
+.task {
+  padding-top: 9px;
+  padding-left: 5px;
+  margin-top: 0;
+  background-color: white;
+  height: 40px;
+  width: 300px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.button1 {
+  position: absolute;
+  top: 9px;
+  right: 5px;
+  background-color: transparent;
+  border: none;
+  color: lightskyblue;
+  cursor: pointer;
+}
+
+.button1:focus {
+  outline: none;
+}
